@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+ 
+
+<head>
+
+    <title>Edit student</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background-color: #f4f4f4;
+
+        }
+
+ 
+
+        .container {
+
+            max-width: 600px;
+
+            margin: 0 auto;
+
+            padding: 20px;
+
+            background-color: #fff;
+
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+            border-radius: 5px;
+
+        }
+
+ 
+
+        h1 {
+
+            text-align: center;
+
+            margin-bottom: 20px;
+
+        }
+
+ 
+
+        .registration-form label {
+
+            display: block;
+
+            margin-bottom: 8px;
+
+            font-weight: bold;
+
+        }
+
+ 
+
+        .registration-form input[type="text"],
+
+        .registration-form input[type="number"] {
+
+            width: 100%;
+
+            padding: 10px;
+
+            margin-bottom: 15px;
+
+            border: 1px solid #ccc;
+
+            border-radius: 4px;
+
+            font-size: 16px;
+
+        }
+
+ 
+
+        .btn-primary {
+
+            background-color: #007bff;
+
+            color: #fff;
+
+            border: none;
+
+            padding: 10px 20px;
+
+            border-radius: 4px;
+
+            cursor: pointer;
+
+        }
+
+    </style>
+
+</head>
+
+ 
+
+<body>
+
+    <div class="container">
+
+        <h1>Edit Student</h1>
+
+        <form class="registration-form" action="/editStudent/{{student._id}}" method="POST">
+
+            <label for="rollno">Roll No:</label>
+
+            <input type="text" id="rollno" name="Rollno" value="{{student.Rollno}}" required><br>
+
+ 
+
+            <label for="name">Name:</label>
+
+            <input type="text" id="name" name="Name" value="{{student.Name}}" required><br>
+
+ 
+
+            <label for="dob">Date of Birth:</label>
+
+            <input type="text" id="dob" name="Dob" value="{{student.Dob}}" required><br>
+
+ 
+
+            <label for="score">Score:</label>
+
+            <input type="number" id="score" name="Score" value="{{student.Score}}" required><br>
+
+ 
+
+            <center> <button type="submit" class="btn btn-primary">Update Student</button></center>
+
+        </form>
+
+    </div>
+
+</body>
+
+ 
+
+</html>
+
+ 

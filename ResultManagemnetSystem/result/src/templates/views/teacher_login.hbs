@@ -1,0 +1,28 @@
+{{>header}}
+{{>navbar}}
+<div class="container mt-5">
+    <div class="row mx-auto">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1> Teacher Login </h1>
+                    <hr>
+                </div>
+                <form class="mx-auto mt-5" action="/teacher" method="POST">
+                    <div class="mb-3">
+                        <label class="form-label">User Name</label>
+                        <input name="User_name" type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your name"
+                            aria-describedby="emailHelp" required >
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input name="password" type="password" class="form-control" id="exampleInputPassword1"
+                            placeholder="Enter your password" required >
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+                <a class="mx-auto mt-2 mb-3" href="teacher_signup">New user? Click to Signup!</a>
+            </div>
+        </div>
+    </div>
+</div>

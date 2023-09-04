@@ -1,0 +1,41 @@
+{{>header}}
+{{>navbar}}
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="card mt-5 ">
+                <div class="text-center mt-3">
+                    <h3> Find Result </h3>
+                    <hr>
+                </div>
+                <form class="mx-auto" action="/student" method="POST">
+                    <div class="mb-3 mt-5 ">
+                        <label class="form-label">Roll No.</label>
+                        <input type="text" class="form-control"
+                            placeholder="Enter your roll no." name="Rollno" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Date of Birth</label>
+                        <input type="text" class="form-control" name="Dob"  placeholder="Enter your dob"
+                            required>
+                    </div>
+                    <button type="submit" class="btn btn-primary mb-5">Search</button>&nbsp;
+                    <button type="reset" class="btn btn-danger mb-5">Clear</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{#if showResult}}
+<div class="result">
+    <button class="close-button btn btn-link" data-toggle="tooltip" title="Close">
+        <i>close</i>
+    </button>
+    <h3>Result</h3>
+    <p>Roll No. : {{ student.roll_no }}</p>
+    <p>Name : {{ student.name }}</p>
+    <p>Date of Birth : {{ student.dob }}</p>
+    <p>Score : {{ student.score }}</p>
+</div>
+{{/if}}

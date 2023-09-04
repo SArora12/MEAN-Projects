@@ -1,0 +1,12 @@
+.align-right
+{   
+    position: absolute;
+    right: 20px;
+  
+    top: 70px;
+}
+.align-left{
+    position: absolute;
+    left: 12px;
+    top: 70px;
+}

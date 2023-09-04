@@ -1,0 +1,33 @@
+
+{{>header}}
+<head>
+    <link rel="stylesheet" href="css/result.css">
+</head>
+   {{>navbar}}
+   
+    <div class="container">
+        <form action="/addResult" method="POST">
+            <div class="form-group">
+                <h2>Add New Result</h2>
+                <label for="username">Roll No.</label>
+                <input type="text" name="Rollno" class="form-control" placeholder="Enter roll number*" required>
+            </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="Name" class="form-control" placeholder= " Enter student name" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth</label>
+                <input type="text" name="Dob" class="form-control" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Score</label>
+                <input type="text" name="Score" class="form-control"
+                    placeholder="Enter Score">
+            </div>
+            <button type="submit" class="btn">Save</button>
+            
+        </form>
+
+    </div><br><br><br><br>
+
