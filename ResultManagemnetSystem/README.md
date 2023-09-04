@@ -25,4 +25,5 @@ Before you begin, ensure you have met the following requirements:
 - Node.js and npm installed on your development machine.
 - MongoDB installed and running.
 - Internet connectivity to download npm packages.
+<img width="957" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/504404b5-b0a2-45f7-9f0a-e0ce248577d1">
 
