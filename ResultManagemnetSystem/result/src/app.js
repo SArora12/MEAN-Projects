@@ -7,14 +7,16 @@ const bcrypt=require("bcryptjs")
 const jwt=require("jsonwebtoken")
 const cookieParser=require('cookie-parser');
 require("./db/conn");
-// const auth=require("./middlewares/auth")
+const auth = require('./middlewares/auth');
+
 const Signup=require("./models/teacher_signup")
 const studentData=require("./models/student_login");
-const auth = require('./middlewares/auth');
+
 const view_path=path.join(__dirname,"/templates/views")
 const partial_path=path.join(__dirname,"/templates/partials")
-
 const static_path=path.join(__dirname,"/public")
+
+
 app.use(express.static(static_path));
 app.use(cookieParser());
 app.set('view engine','hbs');
@@ -55,7 +57,6 @@ app.get("/studentDashboard",auth,async(req,res)=>{
         
         const stud=await studentData.find({});
         res.status(201).render("student_dashboard",{stud})
-        // console.log(`cookie is ${req.cookies.Login_Jwt}`)
     } catch (error) {
         res.send(error)
     }
@@ -69,7 +70,6 @@ app.post("/addResult",async(req,res)=>{
             Score:req.body.Score
         })
         const stud_data=await result.save();
-        // const stud=await studentData.find({});
         
         res.status(201).redirect("/studentDashboard");
     } catch (error) {
@@ -87,7 +87,7 @@ app.post("/teacher_signup",async(req,res)=>{
 
        const token= await registerEmployee.generateAuthToken();
        
-       //password hashing middleware
+       //middleware
        
        res.cookie("Login_Jwt",token,{
         expires:new Date(Date.now()+120000),
@@ -107,7 +107,6 @@ app.post("/teacher", async(req, res)=>{
         const User_name=req.body.User_name;
         const password=req.body.password;
         const useremail=await Signup.findOne({User_name:User_name});
-        // const stud=await studentData.find({});
         const isMatch=bcrypt.compare(password, useremail.password);
 
         const token= await useremail.generateAuthToken();
@@ -228,9 +227,7 @@ app.post('/editStudent/:id', async (req, res) => {
 
 });
 
-app.get("/",(req, res)=>{
-    res.send("Hello, welcome!")
-});
+
 app.listen(3000,()=>{
 console.log("app started at 3000")
 
