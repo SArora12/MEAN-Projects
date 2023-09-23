@@ -28,7 +28,11 @@ Before you begin, ensure you have met the following requirements:
 <img width="957" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/504404b5-b0a2-45f7-9f0a-e0ce248577d1">
 <img width="960" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/db524997-38a9-4fd3-a45b-e69b8fbad185">
 <img width="788" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/87c6b9ce-4fbe-450a-ac49-5f19528a531d">
-![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/d4a199d8-6e0a-4da2-ac6a-66f60be5cdd0)
+![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/ce6f9e36-ea83-42a7-abca-a0dc621c5b0e)
+![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/83acd06d-3321-43bf-85b0-e7216adeefe3)
+![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/1a500bad-b0a7-4cf8-bf26-bc8c266ac69c)
+
+
 ![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/8d56d517-d6fd-4ce8-b78e-ec0e9102eeca)
 ![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/5ce4d5ac-f8b7-4c7a-9164-533e3475e7db)
 <img width="960" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/63e089bf-3eb0-45b0-8346-b21af5b2384d">
