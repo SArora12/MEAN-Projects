@@ -32,8 +32,6 @@ Before you begin, ensure you have met the following requirements:
 <img width="758" alt="Screenshot 2023-09-23 210410" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/5fd1e26e-c8d6-41b7-9d26-ef2c55feaf43">
 <img width="754" alt="Screenshot 2023-09-23 210511" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/4d13bbfc-acfd-4aa7-a216-36c9e248b978">
 
-![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/8d56d517-d6fd-4ce8-b78e-ec0e9102eeca)
-![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/5ce4d5ac-f8b7-4c7a-9164-533e3475e7db)
 <img width="960" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/63e089bf-3eb0-45b0-8346-b21af5b2384d">
 ![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/d1dccc9d-dbe7-414d-9dda-54ad366f9dab)
 
