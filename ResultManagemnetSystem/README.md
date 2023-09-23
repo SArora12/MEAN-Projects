@@ -33,5 +33,5 @@ Before you begin, ensure you have met the following requirements:
 <img width="754" alt="Screenshot 2023-09-23 210511" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/4d13bbfc-acfd-4aa7-a216-36c9e248b978">
 
 <img width="960" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/63e089bf-3eb0-45b0-8346-b21af5b2384d">
-![image](https://github.com/SArora12/MEAN-Projects/assets/121418505/d1dccc9d-dbe7-414d-9dda-54ad366f9dab)
+<img width="755" alt="image" src="https://github.com/SArora12/MEAN-Projects/assets/121418505/9b579d90-480d-4cfc-a0e6-fd852c65e031">
 
